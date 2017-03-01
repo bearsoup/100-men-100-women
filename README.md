@@ -16,15 +16,19 @@ How do views on sexual promiscuity vary by gender and sexual orientation?
 ## Files
 ### Github Repository
 [GitHub - bearsoup/100-men-100-women](https://github.com/bearsoup/100-men-100-women)
+
 ### Input
 * ` user_data_public.csv`
 This file not included in my GitHub repo due to its size (~1GB)
+
 ### Intermediate
 * `process_okc_data_genbin.py`  
 Goes through `user_data_public.csv` to extract all data potentially relevant to this project and saves it to a new, significantly smaller CSV file. (“genbin" is short for “gender binary” to differentiate this CSV from pervious versions that included a group of non-gender-binary users too small to perform statistical analysis on.
+
 ### Output
 * `okc_relevant_data_genbin.csv`
 Output from  previous file.
+
 ### Data Exploration
 * `explore_relevant_data.py`
 Uses the agate library for python to generate various tables from the data in `okc_relevant_data_genbin.csv`.
