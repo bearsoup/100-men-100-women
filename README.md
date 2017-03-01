@@ -36,12 +36,18 @@ This visualization is the most conceptually similar in terms of content:
 The following provide visual and interactive research, despite being conceptually different from my project:
 ### Interactive
 [Behind the Bloodshed: The Untold Story of America’s Mass Killings](http://www.gannett-cdn.com/GDContent/mass-killings/index.html)
+
 [Official site of James Anderson](http://jamesanderson613.com/)
+
 [Sporting in England](http://infographics.sportengland.org/)
+
 [Who’s in the American Center](http://www.nbcnews.com/id/53277240#intro)
+
 ### Static
 [Marco Spies – Branded Interactions](https://www.designmadeingermany.de/2013/1654/)
+
 [Weather Portraits](https://www.c82.net/blog/?id=71)
+
 [SongPost - BRB](http://cargocollective.com/barbararebolledo/SongPost)
 
 ## Limitations
