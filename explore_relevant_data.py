@@ -1,7 +1,7 @@
+# -*- coding: utf-8 -*-
 """
 Generates basic tables from okc_relevant_data_genbin.csv.
 """
-
 import agate
 
 # create agate table from gender-binary csv data
@@ -118,6 +118,22 @@ with_100_by_orientation.print_table()
 | (True, True)       |  2,925 |    88 |       78 |  2,759 |
 | (False, True)      |    950 |    46 |       37 |    867 |
 | (True, False)      |    435 |    17 |       15 |    403 |
+"""
+
+with_100_by_orientation_percent = with_100_by_orientation.compute([
+     ('Total %', agate.Percent('Total')),
+     ('Gay %', agate.Percent('Gay')),
+     ('Bisexual %', agate.Percent('Bisexual')),
+     ('Hetero %', agate.Percent('Hetero')),
+])
+with_100_by_orientation_percent.print_table(max_columns=None)
+"""
+| Man Bad, Woman Bad |  Total |   Gay | Bisexual | Hetero | Total % |   Gay % | Bisexual % | Hetero % |
+| ------------------ | ------ | ----- | -------- | ------ | ------- | ------- | ---------- | -------- |
+| (False, False)     | 24,575 | 1,623 |    2,378 | 20,574 | 85.079… | 91.488… |    94.817… |  83.624… |
+| (True, True)       |  2,925 |    88 |       78 |  2,759 | 10.126… |  4.961… |     3.110… |  11.214… |
+| (False, True)      |    950 |    46 |       37 |    867 |  3.289… |  2.593… |     1.475… |   3.524… |
+| (True, False)      |    435 |    17 |       15 |    403 |  1.506… |  0.958… |     0.598… |   1.638… |
 """
 
 # aggregate by_100 TableSet by gender_orientation
