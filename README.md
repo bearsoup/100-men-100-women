@@ -23,7 +23,7 @@ This file not included in my GitHub repo due to its size (~1GB)
 
 ### Intermediate
 * `process_okc_data_genbin.py`  
-Goes through `user_data_public.csv` to extract all data potentially relevant to this project and saves it to a new, significantly smaller CSV file. (“genbin" is short for “gender binary” to differentiate this CSV from pervious versions that included a group of non-gender-binary users too small to perform statistical analysis on.
+Goes through `user_data_public.csv` to extract all data potentially relevant to this project and saves it to a new, significantly smaller CSV file. (“genbin" is short for “gender binary” to differentiate this CSV from previous versions that included a group of non-gender-binary users too small to perform statistical analysis on.
 
 ### Output
 * `okc_relevant_data_genbin.csv`
