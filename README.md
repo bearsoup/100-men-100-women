@@ -16,6 +16,7 @@ How do views on sexual promiscuity vary by gender and sexual orientation?
 ## Files
 ### Github Repository
 [GitHub - bearsoup/100-men-100-women](https://github.com/bearsoup/100-men-100-women)
+[PDF - Visualization Poster](https://github.com/bearsoup/100-men-100-women/blob/master/100-hookups_poster.pdf)
 
 ### Input
 * ` user_data_public.csv`
